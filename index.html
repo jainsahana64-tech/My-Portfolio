@@ -1,47 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Portfolio</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sahana H | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
     <header>
-      <h1>Sahana H</h1>
-      <p class="tagline">Web Developer • UI/UX Enthusiast • Student Innovator</p>
+        <h1>Sahana H</h1>
+        <p>Web Developer • UI/UX Enthusiast • Student Innovator</p>
     </header>
 
-    <section class="about">
-      <h2>About Me</h2>
-      <p>
-        I'm passionate about building student-focused web products that solve real problems. I love blending design with functionality and turning ideas into scalable, resume-worthy projects.
-      </p>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            Hey there! I’m Sahana, a passionate web developer who loves turning ideas 
+            into beautiful, functional designs. I enjoy working with HTML, CSS, and JavaScript 
+            to create interactive, user-friendly websites.  
+           
+        </p>
     </section>
 
-    <section class="skills">
-      <h2>Skills</h2>
-      <ul>
-        <li>HTML & CSS</li>
-        <li>JavaScript & React</li>
-        <li>Firebase & Node.js</li>
-        <li>Branding & UI/UX Design</li>
-        
-      </ul>
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skill-container">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">UI/UX</div>
+            <div class="skill">Responsive Design</div>
+        </div>
     </section>
 
-    <section class="contact">
-      <h2>Contact</h2>
-      <p>Let's connect!</p>
-      <div class="links">
-        <a href="mailto:jainsahana64@gmail.com">Email</a>
-        <a href="https://github.com/jainsahana64-tech" target="_blank">GitHub</a>
-        <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" target="_blank">LinkedIn</a>
-      </div>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Let’s connect!</p>
+        <div class="btn-container">
+            <button onclick="contact('email')">Email</button>
+            <button onclick="contact('github')">GitHub</button>
+            <button onclick="contact('linkedin')">LinkedIn</button>
+        </div>
     </section>
-  </div>
+
+    <footer>
+        <p>© 2025 Sahana H </p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
-
